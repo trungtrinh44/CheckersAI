@@ -136,21 +136,4 @@ def play(student_A, student_B, start_state=Initial_Board):
         return 'r'
 
 
-win_A = 0
-win_B = 0
-# for i in range(2):
-#     if i % 2 == 0:
-#         result = play("checkers_2017_new_bb", "checkers_2017_new_bb")
-#         if result == 'r':
-#             win_A += 1
-#         elif result == 'b':
-#             win_B += 1
-#     else:
-#         result = play("checkers_2017_new_bb", "checkers_2017_new_bb")
-#         if result == 'r':
-#             win_B += 1
-#         elif result == 'b':
-#             win_A += 1
-result = play("checkers", "checkers")
-# play(sys.argv[1],sys.argv[2])
-print(win_A, '/', win_B)
+play("checkers", "checkers")
