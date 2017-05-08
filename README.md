@@ -5,7 +5,7 @@ A simple checker AI using iterative deepening, minimax with alpha-beta pruning a
 Usage
 -----
 Clone the repository. Navigate to the directory and run main.py in Python 3.
-If you want to write your own checkers AI, implement the Player class in basecode/checkers_2017.py.
+If you want to write your own checkers AI, implement the Player class in base_code/checkers_2017.py.
 
 File
 ----
